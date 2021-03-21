@@ -1,0 +1,78 @@
+Emanuel Esquivel Lopez
+2016133597
+Tue 02 Mar 2021 01:46:15 PM PST
+ema
+Linux ubuntu 5.4.0-58-generic #64-Ubuntu SMP Wed Dec 9 08:16:25 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ema         1391  0.0  0.1  19396 10664 ?        Ss   12:42   0:00 /lib/systemd/systemd --user
+ema         1398  0.0  0.0 103464  3496 ?        S    12:42   0:00 (sd-pam)
+ema         1405  0.0  0.2 1482332 19232 ?       S<sl 12:42   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ema         1407  0.0  0.3 1117940 25544 ?       SNsl 12:42   0:01 /usr/libexec/tracker-miner-fs
+ema         1410  0.0  0.1  12476  9616 ?        Ss   12:42   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ema         1414  0.0  0.0 239800  7880 ?        Ssl  12:42   0:00 /usr/libexec/gvfsd
+ema         1419  0.0  0.1 382052  8404 ?        Sl   12:42   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ema         1439  0.0  0.0 240144  7580 ?        Sl   12:42   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ema         1442  0.0  0.1 317428 11556 ?        Ssl  12:42   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ema         1447  0.0  0.0 235868  6024 ?        Ssl  12:42   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ema         1451  0.0  0.4 546252 36764 ?        Sl   12:42   0:00 /usr/libexec/goa-daemon
+ema         1459  0.0  0.1 318596 11708 ?        Sl   12:42   0:00 /usr/libexec/goa-identity-service
+ema         1464  0.0  0.0 238096  7256 ?        Ssl  12:42   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ema         1469  0.0  0.1 316720  8880 ?        Ssl  12:42   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ema         1475  0.0  0.0 235692  6172 ?        Ssl  12:42   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ema         1482  0.0  0.0 164012  6700 tty2     Ssl+ 12:42   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ema         1486  2.1  0.8 275696 65516 tty2     Sl+  12:42   1:23 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ema         1503  0.0  0.1 190920 15464 tty2     Sl+  12:42   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ema         1570  0.0  0.0   6032   456 ?        Ss   12:43   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ema         1617  0.0  0.0 162360  6636 ?        Ssl  12:43   0:00 /usr/libexec/gvfsd-metadata
+ema         1621  0.0  0.1 309728  9428 ?        Ssl  12:43   0:00 /usr/libexec/at-spi-bus-launcher
+ema         1626  0.0  0.0   7372  4280 ?        S    12:43   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ema         1632  0.0  0.0  90056  4328 ?        Ssl  12:43   0:00 /usr/libexec/gnome-session-ctl --monitor
+ema         1639  0.0  0.2 691608 17448 ?        Ssl  12:43   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ema         1655  2.2  3.2 4248948 267080 ?      Ssl  12:43   1:23 /usr/bin/gnome-shell
+ema         1674  0.0  0.1 314680 10288 ?        Sl   12:43   0:00 ibus-daemon --panel disable --xim
+ema         1678  0.0  0.1 240364  9168 ?        Sl   12:43   0:00 /usr/libexec/ibus-dconf
+ema         1679  0.0  0.4 278092 33304 ?        Sl   12:43   0:01 /usr/libexec/ibus-extension-gtk3
+ema         1683  0.0  0.3 200380 29768 ?        Sl   12:43   0:00 /usr/libexec/ibus-x11 --kill-daemon
+ema         1685  0.0  0.1 240344  9224 ?        Sl   12:43   0:00 /usr/libexec/ibus-portal
+ema         1696  0.0  0.0 162828  7744 ?        Sl   12:43   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ema         1699  0.0  0.0 235588  4720 ?        Ssl  12:43   0:00 /usr/libexec/xdg-permission-store
+ema         1704  0.0  0.2 581748 21296 ?        Sl   12:43   0:00 /usr/libexec/gnome-shell-calendar-server
+ema         1709  0.0  0.0 156332  5792 ?        Sl   12:43   0:00 /usr/libexec/dconf-service
+ema         1717  0.0  0.3 1070392 26508 ?       Ssl  12:43   0:00 /usr/libexec/evolution-source-registry
+ema         1725  0.0  0.3 2733904 26932 ?       Sl   12:43   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ema         1737  0.0  0.3 1117340 30556 ?       Ssl  12:43   0:00 /usr/libexec/evolution-calendar-factory
+ema         1739  0.0  0.1 313904  9008 ?        Ssl  12:43   0:00 /usr/libexec/gsd-a11y-settings
+ema         1740  0.0  0.3 570532 30804 ?        Ssl  12:43   0:00 /usr/libexec/gsd-color
+ema         1742  0.0  0.2 374356 17336 ?        Ssl  12:43   0:00 /usr/libexec/gsd-datetime
+ema         1743  0.0  0.1 314260  9596 ?        Ssl  12:43   0:00 /usr/libexec/gsd-housekeeping
+ema         1747  0.0  0.3 348328 30368 ?        Ssl  12:43   0:00 /usr/libexec/gsd-keyboard
+ema         1751  0.0  0.4 690732 32832 ?        Ssl  12:43   0:00 /usr/libexec/gsd-media-keys
+ema         1756  0.0  0.3 348956 31136 ?        Ssl  12:43   0:00 /usr/libexec/gsd-power
+ema         1758  0.0  0.1 248232 11080 ?        Ssl  12:43   0:00 /usr/libexec/gsd-print-notifications
+ema         1759  0.0  0.0 457092  5948 ?        Ssl  12:43   0:00 /usr/libexec/gsd-rfkill
+ema         1765  0.0  0.0 231792  5464 ?        Sl   12:43   0:00 /usr/libexec/gsd-disk-utility-notify
+ema         1768  0.0  0.0 235500  5896 ?        Ssl  12:43   0:00 /usr/libexec/gsd-screensaver-proxy
+ema         1775  0.0  0.1 469028 12936 ?        Ssl  12:43   0:00 /usr/libexec/gsd-sharing
+ema         1780  0.0  0.1 318064 10560 ?        Ssl  12:43   0:00 /usr/libexec/gsd-smartcard
+ema         1788  0.0  0.1 166536  8948 ?        Sl   12:43   0:00 /usr/libexec/ibus-engine-simple
+ema         1791  0.0  0.1 321768 11056 ?        Ssl  12:43   0:00 /usr/libexec/gsd-sound
+ema         1793  0.0  0.1 387872  9376 ?        Ssl  12:43   0:00 /usr/libexec/gsd-usb-protection
+ema         1799  0.1  0.5 291340 40992 ?        Sl   12:43   0:03 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+ema         1801  0.0  0.3 347868 29808 ?        Ssl  12:43   0:00 /usr/libexec/gsd-wacom
+ema         1803  0.0  0.1 318228 10508 ?        Ssl  12:43   0:00 /usr/libexec/gsd-wwan
+ema         1805  0.0  0.4 350824 33176 ?        Ssl  12:43   0:00 /usr/libexec/gsd-xsettings
+ema         1828  0.0  0.7 638408 60596 ?        Sl   12:43   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ema         1866  0.0  0.1 342184 15116 ?        Sl   12:43   0:00 /usr/libexec/gsd-printer
+ema         1891  0.0  0.1 317548 10712 ?        Sl   12:43   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ema         1916  0.0  0.3 747168 29368 ?        Ssl  12:43   0:00 /usr/libexec/evolution-addressbook-factory
+ema         2096  0.0  0.4 424440 34912 ?        Sl   12:44   0:00 update-notifier
+ema         2923  0.4  5.6 1436792 455228 ?      Sl   12:50   0:14 /snap/snap-store/518/usr/bin/snap-store --local-filename /home/ema/Downloads/code_1.53.2-1613044664_amd64.deb
+ema         2945  0.0  0.0 605112  6464 ?        Ssl  12:50   0:00 /usr/libexec/xdg-document-portal
+ema         4422  0.0  0.7 860936 58548 ?        Sl   12:52   0:00 /usr/bin/gnome-calendar --gapplication-service
+ema         4426  0.0  0.5 542160 45768 ?        SLl  12:52   0:00 /usr/bin/seahorse --gapplication-service
+ema         4817  0.0  0.1 391592 10328 ?        Sl   12:53   0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+ema         4844  0.0  0.1 314980  8464 ?        Sl   12:53   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+ema        45898  0.4  0.6 816232 53556 ?        Ssl  13:43   0:00 /usr/libexec/gnome-terminal-server
+ema        45906  0.0  0.0  10872  5148 pts/0    Ss   13:43   0:00 bash
+ema        45986  0.0  0.0  10872  2932 pts/0    S+   13:46   0:00 bash
+ema        45990  0.0  0.0  11684  3620 pts/0    R+   13:46   0:00 ps -ux
