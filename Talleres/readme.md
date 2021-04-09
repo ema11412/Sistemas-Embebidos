@@ -39,7 +39,7 @@ _
 ## Autores ✒️
 
 
-* **Emanuel Esquivel Lopez** - *Trabajo Inicial* - [ema11412](https://github.com/villanuevand)
+* **Emanuel Esquivel Lopez** - *Trabajo Inicial* - [ema11412](https://github.com/ema11412)
 
 
 ## Licencia 📄
