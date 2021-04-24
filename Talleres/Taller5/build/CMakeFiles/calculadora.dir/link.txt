@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/calculadora.dir/src/calculadora.c.o  -o calculadora  -Wl,-rpath,/home/ema/Documents/Embebidos/Taller5/build/lib: lib/libliboperaciones.so -lm 

@@ -1,0 +1,4 @@
+Proyecto1/SmartView/server/node_modules
+*.o
+*.so
+*.a

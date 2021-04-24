@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>Casa Inteligente</title>
+ <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/app/public/css/navegation.css">
+    <link rel="stylesheet" href="/app/public/css/smartView.css">
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+<body>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#!">Casa Inteligente</a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="/login">LogOut</a>
+
+            <a id="cap" onclick=imagen() >Captura</a>
+
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+<div class="container">
+  <!--<div class="text1">
+    Presione un bombillo de alguna
+    habitación para encender la luz, 
+    o presione el siguiente bombillo
+    para encender o apagar simultáneamente
+    las luces.
+  </div>
+  <div class="text2">
+    Presione la cámara para tomar una 
+    fotografía del jardin.
+  </div>-->
+  <button data-tooltip="Presione para prender o apagar todas las luces" id="mainbtn" class="mainbtn">
+    <div id="mainflash" class="flash">
+    </div>
+  </button>
+  <div id="six" class="button"><button data-tooltip="Presione para mostrar video" id="camerabtn" class="camerabtn"></div>
+  
+  </button>
+  <img class="img" src="/app/public/assets/images/casita-kawaii2.0.png" alt="SmartHouse">
+  <button id="btn1" class="btn btn1"> 
+    <div id="flash1" class="flash">
+    </div>
+  </button>
+  <button id="btn2" class="btn btn2">
+    <div id="flash2" class="flash">
+    </div>
+  </button>
+  <button id="btn3" class="btn btn3">
+    <div id="flash3" class="flash">
+    </div>
+  </button>
+  <button id="btn4" class="btn btn4">
+    <div id="flash4" class="flash">
+    </div>
+  </button>
+  <button id="btn5" class="btn btn5">
+    <div id="flash5" class="flash">
+    </div>
+  </button>
+  
+  <button id="door1" class="door door1">
+    <div id="flashD1" class="flash">
+    </div>
+  </button>
+  <button id="door2" class="door door2">
+    <div id="flashD2" class="flash">
+    </div>
+  </button>
+  <button id="door3" class="door door3">
+    <div id="flashD3" class="flash">
+    </div>
+  </button>
+  <button id="door4" class="door door4">
+    <div id="flashD4" class="flash">
+    </div>
+  </button>
+  
+</div> 
+
+<div id="modal-container">
+  <div class="modal-background">
+    <div class="modal">
+      <h2>Fotografia</h2>  
+      <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+        <rect x="0" y="0" fill="none" width="678" height="600" rx="3" ry="3"></rect>
+      </svg>
+      <img style="-webkit-user-select: none;margin: auto;" src="../cam/photo.jpg">
+    </div>
+    
+  </div>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/app/public/js/smartView.js"></script>
+</html>

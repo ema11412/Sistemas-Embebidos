@@ -1,0 +1,3 @@
+/home/ema/Documents/Embebidos/Taller5/build/usr/bin/calculadora
+/home/ema/Documents/Embebidos/Taller5/build/usr/lib/libliboperaciones.so
+/home/ema/Documents/Embebidos/Taller5/build/usr/include/operaciones.h
