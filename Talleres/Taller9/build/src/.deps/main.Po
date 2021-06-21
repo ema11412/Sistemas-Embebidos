@@ -1,0 +1,115 @@
+main.o: ../../src/main.c \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdc-predef.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdio.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/libc-header-start.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/features.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double-32.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-32.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/include/stddef.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes-32.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/__FILE.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/FILE.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/libio.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/_G_config.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/__mbstate_t.h \
+ /opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/include/stdarg.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/sys_errlist.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/stdio.h \
+ ../../include/timer.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/math.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/math-vector.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/libm-simd-decl-stubs.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/floatn.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/floatn-32.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/floatn-common.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/flt-eval-method.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fp-logb.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fp-fast.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fp-fast-32.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/mathcalls-helper-functions.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/mathcalls.h \
+ /opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/mathinline.h
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdc-predef.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/stdio.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/libc-header-start.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/features.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/long-double-32.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-32.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/include/stddef.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/typesizes-32.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/__FILE.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/FILE.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/libio.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/_G_config.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/types/__mbstate_t.h:
+
+/opt/poky/2.5.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/include/stdarg.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/stdio_lim.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/sys_errlist.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/stdio.h:
+
+../../include/timer.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/math.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/math-vector.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/libm-simd-decl-stubs.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/floatn.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/floatn-32.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/floatn-common.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/flt-eval-method.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fp-logb.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fp-fast.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/fp-fast-32.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/mathcalls-helper-functions.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/mathcalls.h:
+
+/opt/poky/2.5.1/sysroots/cortexa7hf-neon-vfpv4-poky-linux-gnueabi/usr/include/bits/mathinline.h:

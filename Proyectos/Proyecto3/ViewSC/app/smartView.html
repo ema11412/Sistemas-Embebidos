@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>Vista de seguridad</title>
+ <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/app/public/css/navegation.css">
+    <link rel="stylesheet" href="/app/public/css/smartView.css">
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+<body>
+  <h1 class="main-title">Historial de Camara de seguridad</h1>
+
+  <div class="container">
+    <h3 id="i1" class="title"> </h3>
+    <div class="content">
+      <a id="imgx1" target="_blank" class="cosafea">
+        <div  class="content-overlay"></div>
+        <img id = 'img1' class="content-image" src="">
+        <div class="content-details fadeIn-bottom">
+          <h3  class="content-title">Ultima Fotografia</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h3 id="i2" class="title"> </h3>
+    <div class="content">
+      <a id="imgx2" target="_blank" class="cosafea" >
+        <div class="content-overlay"></div>
+        <img id = 'img2' class="content-image" src="">
+        <div class="content-details fadeIn-top">
+          <h3>Penultima Fotografia</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h3 id="i3" class="title"> </h3>
+    <div class="content">
+      <a  id="imgx3"target="_blank" class="cosafea" >
+        <div class="content-overlay"></div>
+        <img id = 'img3' class="content-image" src="">
+        <div class="content-details fadeIn-left">
+          <h3>Antepenultima Fotografia</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h3 id="i4" class="title"> </h3>
+    <div class="content">
+      <a id="imgx4" target="_blank" class="cosafea" >
+        <div id="i4" class="content-overlay"></div>
+        <img id = 'img4' class="content-image" src="">
+        <div class="content-details fadeIn-right">
+
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h3 id="i5" class="title"> </h3>
+    <div class="content">
+      <a  id="imgx5" target="_blank" class="cosafea">
+        <div class="content-overlay"></div>
+        <img id = 'img5' class="content-image" src="">
+        <div class="content-details fadeIn-top fadeIn-left">
+
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h3 id="i6" class="title"> </h3>
+    <div class="content">
+      <a  id="imgx6" target="_blank" class="cosafea">
+        <div class="content-overlay"></div>
+        <img id = 'img6' class="content-image" src="">
+        <div class="content-details fadeIn-top fadeIn-right">
+
+        </div>
+      </a>
+    </div>
+  </div>
+  
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/app/public/js/smartView.js"></script>
+</html>
